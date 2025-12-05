@@ -1,6 +1,6 @@
 # MCP Server Sample
 
-Minimal Model Context Protocol server for security training. Focus on intentionally vulnerable behaviors; keep it isolated and never deploy.
+Model Context Protocol server for security testing. Focus on intentionally vulnerable behaviors; keep it isolated and never deploy.
 
 ## Setup
 
