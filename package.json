@@ -1,0 +1,26 @@
+{
+  "name": "mcp-server-sample",
+  "version": "0.1.0",
+  "description": "Example MCP server with basic tools",
+  "license": "MIT",
+  "type": "module",
+  "main": "dist/vulnerable.js",
+  "scripts": {
+    "dev": "ts-node src/vulnerable.ts",
+    "build": "tsc -p tsconfig.json",
+    "start": "node dist/vulnerable.js",
+    "dev:vuln": "ts-node src/vulnerable.ts",
+    "dev:client": "ts-node src/client.ts",
+    "lint": "echo \"No linter configured\""
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.24.3",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^22.9.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.3"
+  }
+}
+

@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "vuln-mcp": {
+      "type": "stdio",
+      "command": "npm",
+      "args": ["run", "dev", "--silent"],
+      "env": {
+        "TS_NODE_TRANSPILE_ONLY": "true"
+      }
+    }
+  }
+}
+
